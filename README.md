@@ -1,42 +1,173 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Hack Carnival 2026 — TraceGuard
 
-## Getting Started
+> 🔥 AI-Powered Expense Intelligence Platform
+> Built during Hack Carnival 2026
 
-First, run the development server:
+---
+
+## 🌐 Live Demo
+
+👉 **https://hack-carnival-trace-guard.vercel.app/**
+
+---
+
+## 🧠 Problem Statement
+
+Managing expenses manually is:
+
+* ❌ Time-consuming
+* ❌ Unstructured
+* ❌ Hard to analyze
+
+Users struggle to:
+
+* Track spending patterns
+* Categorize expenses
+* Maintain financial discipline
+
+---
+
+## 💡 Our Solution — TraceGuard
+
+**TraceGuard** is an AI-powered expense tracking system that:
+
+✅ Automatically categorizes expenses using AI
+✅ Tracks budgets & spending in real-time
+✅ Provides visual insights (charts & dashboards)
+✅ Helps users build better financial habits
+
+---
+
+## ⚡ Key Features
+
+* 💸 **Add & Track Expenses**
+* 🤖 **AI-Based Categorization**
+* 📊 **Interactive Dashboard**
+* 📈 **Monthly Spending Analytics**
+* 🧾 **Budget Management System**
+* ⚡ **Fast & Responsive UI**
+* 🌙 **Modern Dark Theme UI**
+
+---
+
+## 🛠️ Tech Stack
+
+### 🚀 Frontend
+
+* Next.js (App Router)
+* React.js
+* Tailwind CSS
+
+### 🧠 AI Integration
+
+* Google Gemini API
+
+### 🗄️ Backend / Database
+
+* Supabase (PostgreSQL)
+
+### ☁️ Deployment
+
+* Vercel
+
+---
+
+## 🏗️ Project Structure
+
+```
+a-expense-tracker/
+│
+├── app/
+│   ├── (routes)/
+│   │   ├── dashboard/
+│   │   ├── expenses/
+│   │   └── budget/
+│   ├── components/
+│   └── page.js
+│
+├── components/
+│   └── ui/
+│
+├── lib/
+├── utils/
+├── public/
+│
+├── package.json
+└── next.config.mjs
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/madhavzanwar/hack-carnival-TraceGuard.git
+cd a-expense-tracker
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Add Environment Variables
+
+Create `.env.local` and add:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+GEMINI_API_KEY=your_key
+```
+
+### 4️⃣ Run the project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📊 Future Improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* 📅 Monthly reports with AI insights
+* 📱 Mobile optimization
+* 🔔 Smart spending alerts
+* 📉 Predictive expense analysis
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Contributors
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Madhav Zanwar**
+* Team Hack Carnival 2026
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🏆 Why This Project Stands Out
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✨ Combines **AI + Finance**
+✨ Clean & modern UI
+✨ Real-world usability
+✨ Built within hackathon constraints
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# Hack Carnival 2026
+---
 
-AI-powered project built during hackathon 🚀
->>>>>>> c5ed9c209277418d36063562a28dcd07c8776c83
+## ❤️ Acknowledgements
+
+* Next.js Team
+* Vercel
+* Supabase
+* Google Gemini
+
+---
+
+## 📌 Final Note
+
+> “Don’t just track expenses. Understand them.”
+
+---
+
